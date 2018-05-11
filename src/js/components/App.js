@@ -2,7 +2,6 @@ import React from "react";
 import List from "./List";
 import Form from "./Form";
 
-console.log("list in app.js", List);
 const App = () => (
   <div className="row" style={{'marginRight': 0, 'marginLeft': 0}}>
     <div className="col-md-1"></div>

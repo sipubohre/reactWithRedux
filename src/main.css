@@ -1,3 +1,8 @@
 body {
     line-height: 2;
 }
+.removeli {
+	float: right;
+    color: red;
+    font-size: 1.6rem;
+}
