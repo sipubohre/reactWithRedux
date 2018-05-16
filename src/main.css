@@ -5,4 +5,8 @@ body {
 	float: right;
     color: red;
     font-size: 1.6rem;
+    cursor: pointer;
+}
+.center {
+	text-align: center;
 }

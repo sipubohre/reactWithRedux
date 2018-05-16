@@ -1,11 +1,12 @@
 {
-  "name": "webpack-4-quickstart",
+  "name": "articles-manager",
   "version": "1.0.0",
-  "description": "> Webpack 4 tutorial: All You Need to Know, from 0 Conf to Production Mode",
+  "description": "this small app is used for redux, webpack 4, router 4 and all others new assets",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
+    "start": "webpack-dev-server --open",
+    "dev": "webpack -d --progress --colors --watch",
+    "build": "webpack --progress --colors"
   },
   "keywords": [],
   "author": "",
@@ -29,5 +30,10 @@
     "webpack-cli": "^2.0.12",
     "webpack-dev-server": "^3.1.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "compression-webpack-plugin": "^1.1.11",
+    "react-router-dom": "^4.2.2",
+    "redux-persist": "^5.9.1",
+    "webpack-bundle-tracker": "^0.3.0"
+  }
 }

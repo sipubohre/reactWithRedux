@@ -23,7 +23,7 @@ class Span extends Component {
 
   render() {
     return (
-      <span id={this.props.id} className="removeli" onClick={this.removelihandler}>x</span>
+      <span id={this.props.id} className="removeli" onClick={this.removelihandler} title="click for removing this article">x</span>
     );
   }
 }
